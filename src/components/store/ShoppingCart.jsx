@@ -107,7 +107,7 @@ const ShoppingCart = () => {
               </button>
             </form>
             <div>
-              <span className="text-gray-500">Total:</span>
+              <span className="text-gray-500">Total:{" "}</span>
               <span className="text-fuchsia-800">
                 $
                 {cartItems.reduce(

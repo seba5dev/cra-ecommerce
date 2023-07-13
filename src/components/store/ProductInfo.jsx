@@ -60,10 +60,10 @@ const ProductInfo = () => {
           className=" mx-auto w-auto max-h-60"
         />
         <div className="flex justify-between my-3">
-          <div className="flex items-center gap-x-1">
-            <h2 className="font-semibold">{selectedItem.name}</h2>
+          <div className="flex items-center gap-x-1 text-lg font-semibold">
+            <h2>{selectedItem.name}</h2>
             <BsDot className="text-xs" />
-            <p>${selectedItem.price}</p>
+            <p className="text-fuchsia-800">${selectedItem.price}</p>
           </div>
           <div className="flex items-center">
             <button

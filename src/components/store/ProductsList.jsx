@@ -20,7 +20,7 @@ const ProductsList = () => {
       {products.map((product) => (
         <div
           key={product.id}
-          className={`relative flex justify-center items-center max-w-xs w-full rounded-md p-2 shadow-md cursor-pointer ${
+          className={`relative flex justify-center items-center max-w-xs w-full rounded p-2 shadow-md cursor-pointer ${
             selectedItem?.id === product.id
               ? `border-2 border-fuchsia-700 animate-pulse`
               : `border border-gray-400`
